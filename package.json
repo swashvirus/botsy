@@ -1,5 +1,5 @@
 {
-  "name": "botsy",
+  "name": "twittbots",
   "version": "1.0.0",
   "description": "Simple Twitterbot made in vanilla Javascript using Twitter API's and deployed on Heroku,capable of  retweeting,tweeting,following and more, just from a few lines of code",
   "main": "bot.js",
