@@ -1,54 +1,24 @@
 {
-  "_args": [
-    [
-      "verror@1.10.0",
-      "D:\\JS\\twitterbot"
-    ]
-  ],
-  "_from": "verror@1.10.0",
-  "_id": "verror@1.10.0",
-  "_inBundle": false,
-  "_integrity": "sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=",
-  "_location": "/verror",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "verror@1.10.0",
-    "name": "verror",
-    "escapedName": "verror",
-    "rawSpec": "1.10.0",
-    "saveSpec": null,
-    "fetchSpec": "1.10.0"
-  },
-  "_requiredBy": [
-    "/jsprim"
-  ],
-  "_resolved": "https://registry.npmjs.org/verror/-/verror-1.10.0.tgz",
-  "_spec": "1.10.0",
-  "_where": "D:\\JS\\twitterbot",
-  "bugs": {
-    "url": "https://github.com/davepacheco/node-verror/issues"
-  },
+  "name": "botsy",
+  "version": "1.0.0",
+  "description": "Simple Twitterbot made in vanilla Javascript using Twitter API's and deployed on Heroku,capable of  retweeting,tweeting,following and more, just from a few lines of code",
+  "main": "bot.js",
   "dependencies": {
-    "assert-plus": "^1.0.0",
-    "core-util-is": "1.0.2",
-    "extsprintf": "^1.2.0"
+    "twit": "^2.2.11"
   },
-  "description": "richer JavaScript errors",
-  "engines": [
-    "node >=0.6.0"
-  ],
-  "homepage": "https://github.com/davepacheco/node-verror#readme",
-  "license": "MIT",
-  "main": "./lib/verror.js",
-  "name": "verror",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/davepacheco/node-verror.git"
+    "url": "git+https://github.com/swashvirus/botsy.git"
   },
-  "scripts": {
-    "test": "make test"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swashvirus/botsy/issues"
   },
-  "version": "1.10.0"
+  "homepage": "https://github.com/swashvirus/botsy#readme"
 }
