@@ -1,8 +1,8 @@
 {
-  "name": "twittbots",
+  "name": "botsy",
   "version": "1.0.0",
-  "description": "Simple Twitterbot made in vanilla Javascript using Twitter API's and deployed on Heroku,capable of  retweeting,tweeting,following and more, just from a few lines of code",
-  "main": "bot.js",
+  "description": "![JavaScript bot image](image.png)",
+  "main": "config.js",
   "dependencies": {
     "twit": "^2.2.11"
   },
